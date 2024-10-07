@@ -2,18 +2,7 @@
 
 This project aims to classify the sentiment of text written in **Darja** (Algerian Arabic) as either **positive** or **negative**. Using natural language processing (NLP) techniques, we have developed a machine learning model tailored to the unique linguistic features of Darja.
 
-## Table of Contents
 
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model and Performance](#model-and-performance)
-- [Future Work](#future-work)
-- [Contributors](#contributors)
-
----
 
 ## Overview
 
@@ -25,10 +14,6 @@ The dataset used in this project consists exclusively of **Darja** sentences. Ea
 - **Post:** A sentence written in Darja.
 - **Polarity Class:** The sentiment of the sentence (`0` for negative, `1` for positive).
 
-### Dataset Overview:
-- The dataset is composed entirely of Darja text.
-- Sentiment labels are binary, representing either **positive** or **negative**.
-
 ## Features
 
 - **Sentiment Classification:** Classifies Darja text as either positive or negative.
@@ -37,45 +22,9 @@ The dataset used in this project consists exclusively of **Darja** sentences. Ea
 
 
 
-2. **Install the required dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
-
-### Requirements
-- Python 3.8+
-- `nltk`
-- `scikit-learn`
-- `pandas`
-- `numpy`
-
-## Usage
-
-1. **Data Preprocessing:**
-   Preprocess the Darja text data before training the model.
-
-   ```bash
-   python preprocess.py
-   ```
-
-2. **Train the Model:**
-   Train the sentiment analysis model using the Darja dataset.
-
-   ```bash
-   python train_model.py
-   ```
-
-3. **Predict Sentiment:**
-   Use the trained model to predict the sentiment of a Darja sentence.
-
-   ```bash
-   python predict.py --input "your Darja sentence here"
-   ```
-
 ## Model and Performance
 
-- **Model:** `MLPClassifier` optimized with `GridSearchCV`.
+- **Model:** `MLPClassifier` 
 - **Performance:** Achieved high accuracy on Darja-only data after model tuning.
 - **Preprocessing Steps:**
   - Darja-specific text cleaning
@@ -84,11 +33,12 @@ pip install -r requirements.txt
 ## Future Work
 
 - Expand the dataset to include more Darja sentences for better model generalization.
-- Add a **neutral** sentiment category for more nuanced classification.
 - Explore more advanced NLP models like **transformers** to improve overall accuracy.
+- use better NER models 
 
 ## Contributors
 
-- **Cheurfi Behadj Yassine**
 - **Bousakhria Imed**
+- **Cheurfi Behadj Yassine**
+  
 
