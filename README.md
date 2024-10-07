@@ -38,7 +38,7 @@ The dataset used in this project consists exclusively of **Darja** sentences. Ea
 
 ## Contributors
 
-- **Bousakhria Imed**
-- **Cheurfi Behadj Yassine**
-  
+- [Imed Bousakhria](https://github.com/ImedBousakhria)- **Imed Bousakhria**
+- [Yassine Cheurfi Belhadj](https://github.com/yaCHBn2004) **Cheurfi Behadj Yassine**
+
 
